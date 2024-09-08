@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(18, 23, 23);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:1700px) {
+    body{
+    background-color: rgb(221, 15, 15);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:1500px) {
+    body{
+    background-color: rgb(221, 176, 15);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:1300px) {
+    body{
+    background-color: rgb(118, 221, 15);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:1100px) {
+    body{
+    background-color: rgb(15, 221, 221);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:900px) {
+    body{
+    background-color: rgb(15, 63, 221);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:700px) {
+    body{
+    background-color: rgb(139, 15, 221);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+    background-color: rgb(221, 15, 118);
+    transition: ease-in-out 100ms;
+    }
+}
+@media screen and (max-width:300px) {
+    body{
+    background-color: rgb(100, 7, 7);
+    transition: ease-in-out 100ms;
+    }
+}
